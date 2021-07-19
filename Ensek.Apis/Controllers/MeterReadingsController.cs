@@ -7,17 +7,14 @@ namespace Ensek.Apis.Controllers
     [ApiController]
     public class MeterReadingsController : ControllerBase
     {
-        private EnsekContext context;
-        public MeterReadingsController(EnsekContext context)
+        public MeterReadingsController()
         {
-            this.context = context;
         }
 
         [HttpPost]
         [Route("meter-readings-uploads")]
         public int SubmitMeterReading(IFormFile data)
         {
-            return context.Accounts.Count();
         }
     }
 }

@@ -11,16 +11,14 @@
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchBrowser": false,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "Ensek.Apis": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchBrowser": false,
       "applicationUrl": "http://localhost:52073",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
